@@ -1,9 +1,17 @@
+/*
+progream:employee system
+name:xie jigui
+time:2020.10.01
+vison:1.0
+email:847958870@qq.com
+ */
 #include "Employee.h"
 // #include "Manager.h"
 #include "Manager.h"
 #include "Technician.h"
 #include "CTO.h"
 #include "Company.h"
+
 void init(void)
 {
     if(access("id.txt",F_OK)==-1)
